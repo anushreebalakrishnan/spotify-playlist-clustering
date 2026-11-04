@@ -19,13 +19,13 @@ Can a computer sort songs into playlists that make sense to a listener, without 
 
 ## Result
 
-| Playlist | Songs | Character | Typical artists |
-|---|---|---|---|
-| Dance Beats | 1,850 | danceable, energetic, happy | Daddy Yankee, Don Omar, Rihanna |
-| Electric Vibes | 1,054 | high energy, vocal, darker mood | Obituary, Death, Martin Garrix |
-| Heavy Metal | 860 | very high energy, instrumental | Cannibal Corpse, Entombed, Deicide |
-| Melodic Music | 720 | acoustic, calm, vocal | Caetano Veloso, Stan Getz, Frank Sinatra |
-| Acoustic Classics | 630 | very acoustic, instrumental, quiet | Bach, Mozart, Alexis Ffrench |
+   | Playlist | Songs | Character |
+   |---|---|---|
+   | Dance Beats | 1,850 | danceable, energetic, happy |
+   | Electric Vibes | 1,054 | high energy, vocal, darker mood |
+   | Heavy Metal | 860 | very high energy, instrumental |
+   | Melodic Music | 720 | acoustic, calm, vocal |
+   | Acoustic Classics | 630 | very acoustic, instrumental, quiet |
 
 ## What we learned
 - Clustering only measures distance. The choice of features and scaling decides what "similar" means.
@@ -38,13 +38,16 @@ Can a computer sort songs into playlists that make sense to a listener, without 
 - `requirements.txt`: Python packages needed
 
 ## How to run
-```bash
-pip install -r requirements.txt
-jupyter notebook spotify_playlist_clustering.ipynb
-```
+Install the packages from `requirements.txt`, then open `spotify_playlist_clustering.ipynb` in Jupyter or VS Code and run all cells.
 
 ## Tools
 Python, pandas, NumPy, scikit-learn, SciPy, Matplotlib, Seaborn, Plotly
 
-## Author
-Anushree Balakrishnan, Data Science Bootcamp project, November 2026
+## Team
+Group project by **Four on the Floor**, Data Science Bootcamp, November 2026:
+- Anushree Balakrishnan
+- Radwa Khalil
+- Sonal Rashid
+- Sudha
+
+This repository contains my version of the analysis notebook.
